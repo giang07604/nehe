@@ -74,13 +74,27 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 80px;
 }
 .logo{
     background-color: #e6e6e6;
     text-align: center;
+
     border-radius: 50%;
 }
 .header .info{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+.header .info .gr-info{
+    display: flex;
+    align-items: center;
+}
+.header .info .gr-info span i{
+    padding: 15px;
+    background-color: violet;
+    border: rgb(158, 54, 158) solid 2px;
+    border-radius: 50%;
+    margin-right: 10px;
 }
