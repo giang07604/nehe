@@ -45,20 +45,21 @@
 .col-12 {
     width: 100%;
 }
-
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
 [class*="col-"] {
     float: left;
     padding: 15px;
 }
-
-
 
 @media screen and (max-width: 991px) {
     [class*="col-s"] {
         float: left;
         padding: 15px;
     }
-
     .col-s-1 {
         width: 8.33%;
     }
@@ -172,6 +173,19 @@
 
     .title-footer {
         line-height: 50px !important;
+    }
+    .single-product-info{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .dec-and-review-menu {
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .dec-and-review-menu li{
+        text-align: center;
     }
 }
 
