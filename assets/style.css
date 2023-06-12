@@ -172,14 +172,12 @@ header a:hover {
 .header-bottom .button-header .search-box input {
     padding: 7px;
     outline: none;
-    border-radius: 5px 0px 0px 5px;
     border: none;
 }
 
 .header-bottom .button-header .search-box button {
     padding: 7px 15px;
     outline: none;
-    border-radius: 0px 5px 5px 0px;
     border: none;
     cursor: pointer;
     color: #fff;
