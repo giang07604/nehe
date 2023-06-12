@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="https://kit.fontawesome.com/8c204d0fdf.js" crossorigin="anonymous"></script>
+    <script src="assets/script/font-awesome.js"></script>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/media.css">
+    <title>Trang chủ</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-top">
+            <div class="col-6 top-left">
+                <div class="phone">
+                    <a href="#"><i class="fa-solid fa-phone"></i> 0916475837</a>
+                </div>
+                <div class="mail">
+                    <a href="#"><i class="fa-regular fa-envelope-open"></i> giangntps31300@fpt.edu.vn</a>
+                </div>
+                <div class="gr-social">
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-6 top-right">
+                <a href="#"><i class="fa-regular fa-circle-user"></i> Đăng nhập </a>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="col-3 col-s-2 logo">
+                <a class="col-1" href="index.html"><img src="img/logo.png" alt=""></a>
+            </div>
+            <nav class="col-6 menu-bar">
+                <ul>
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="about.html">Về chúng tôi</a></li>
+                    <li><a href="contact.html">Liên hệ</a></li>
+
+                </ul>
+            </nav>
+            <div class="col-3 button-header">
+                <form class="search-box">
+                    <input type="text" placeholder="Bạn muốn tìm gì...">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+                <span id="icon-search-btn"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                <span id="icon-menu-bar"><i class="fa-solid fa-bars"></i></span>
+            </div>
+        </div>
+        <div class="page-title row">
+            <h1>GIỎ HÀNG</h1>
+        </div>
+    </header>
+    <main>
+        <div class="row">
+            <!-- Cart Table -->
+            <div class="cart-table table-responsive col-12">
+                <table class="table" border="0">
+                    <thead>
+                        <tr>
+                            <th class="pro-thumbnail">Image</th>
+                            <th class="pro-title">Product</th>
+                            <th class="pro-price">Price</th>
+                            <th class="pro-quantity">Quantity</th>
+                            <th class="pro-subtotal">Total</th>
+                            <th class="pro-remove">Remove</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="pro-thumbnail"><a href="#"><img src="img/product-1.jpg" alt="Product"></a></td>
+                            <td class="pro-title"><a href="#">Black Cable Restorer</a></td>
+                            <td class="pro-price"><span>$25.00</span></td>
+                            <td class="pro-quantity">
+                                <div class="pro-qty">
+                                    <button class="dec qtybtn">-</button>
+                                    <input type="number" value="1">
+                                    <button class="inc qtybtn">+</button>
+                                </div>
+                            </td>
+                            <td class="pro-subtotal"><span>$25.00</span></td>
+                            <td class="pro-remove"><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td class="pro-thumbnail"><a href="#"><img src="img/product-2.jpg" alt="Product"></a></td>
+                            <td class="pro-title"><a href="#">Black Die Grinder</a></td>
+                            <td class="pro-price"><span>$25.00</span></td>
+                            <td class="pro-quantity">
+                                <div class="pro-qty">
+                                    <button class="dec qtybtn">-</button>
+                                    <input type="number" value="1">
+                                    <button class="inc qtybtn">+</button>
+                                </div>
+                            </td>
+                            <td class="pro-subtotal"><span>$25.00</span></td>
+                            <td class="pro-remove"><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td class="pro-thumbnail"><a href="#"><img src="img/product-3.jpg" alt="Product"></a></td>
+                            <td class="pro-title"><a href="#">Orange Decker drill</a></td>
+                            <td class="pro-price"><span>$25.00</span></td>
+                            <td class="pro-quantity">
+                                <div class="pro-qty">
+                                    <button class="dec qtybtn">-</button>
+                                    <input type="number" value="1">
+                                    <button class="inc qtybtn">+</button>
+                                </div>
+                            </td>
+                            <td class="pro-subtotal"><span>$25.00</span></td>
+                            <td class="pro-remove"><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 col-s-12">
+                <!-- Calculate Shipping -->
+                <div class="calculate-shipping">
+                    <h4>Calculate Shipping</h4>
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-6 col-s-12">
+                                <select class="nice-select">
+                                    <option>Bangladesh</option>
+                                    <option>China</option>
+                                    <option>country</option>
+                                    <option>India</option>
+                                    <option>Japan</option>
+                                </select>
+                            </div>
+                            <div class="col-6 col-s-12">
+                                <select class="nice-select">
+                                    <option>Dhaka</option>
+                                    <option>Barisal</option>
+                                    <option>Khulna</option>
+                                    <option>Comilla</option>
+                                    <option>Chittagong</option>
+                                </select>
+                            </div>
+                            <div class="col-6 col-s-12">
+                                <input type="text" placeholder="Postcode / Zip">
+                            </div>
+                            <div class="col-6">
+                                <button class="btn">Estimate</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!-- Discount Coupon -->
+                <div class="discount-coupon">
+                    <h4>Discount Coupon Code</h4>
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-6 col-s-12">
+                                <input type="text" placeholder="Coupon Code">
+                            </div>
+                            <div class="col-6">
+                                <button class="btn">Apply Code</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Cart Summary -->
+            <div class="col-6 col-s-12">
+                <div class="cart-summary">
+                    <div class="cart-summary-wrap">
+                        <h4>Cart Summary</h4>
+                        <p>Sub Total <span>$75.00</span></p>
+                        <p>Shipping Cost <span>$00.00</span></p>
+                        <h2>Grand Total <span>$75.00</span></h2>
+                    </div>
+                    <div class="cart-summary-button">
+                        <button class="btn col-s-6">Checkout</button>
+                        <button class="btn col-s-6">Update Cart</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container ">
+            <div class="col-3 col-s-12">
+                <span class="title-footer">
+                    VỀ TG STORE
+                </span>
+                <p>Đừng tức giận với nỗi đau trong sự khiển trách trong niềm vui, anh ấy muốn được một sợi tóc từ nỗi
+                    đau với hy vọng rằng không có giống. Trừ khi họ bị dục vọng che mắt
+                </p>
+                <div class="footer-social">
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-3 col-s-12 infomation">
+                <span class="title-footer">
+                    THÔNG TIN
+                </span>
+                <ul>
+                    <li><a href="#">Hoàn trả</a></li>
+                    <li><a href="#">Vận chuyển</a></li>
+                    <li><a href="#">Dịch vụ</a></li>
+                    <li><a href="#">Thẻ quà tặng</a></li>
+                    <li><a href="#">Di động</a></li>
+                    <li><a href="#">Đăng kí thông báo</a></li>
+                </ul>
+            </div>
+            <div class="col-3 col-s-12 infomation">
+                <span class="title-footer">
+                    SẢN PHẨM CỦA CHÚNG TÔI
+                </span>
+                <ul>
+                    <li><a href="#">Sản phẩm mới</a></li>
+                    <li><a href="#">Bán chạy nhất</a></li>
+                    <li><a href="#">Đặt biệt</a></li>
+                    <li><a href="#">Nhà sản xuất</a></li>
+                    <li><a href="#">Nhà cung cấp</a></li>
+                    <li><a href="#">Đặc biệt</a></li>
+                </ul>
+            </div>
+            <div class="col-3 col-s-12 footer-contact">
+                <span class="title-footer">
+                    CONTACT US
+                </span>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-house-chimney"></i>
+                        <span>Công viên Phần Mềm Quang Trung, Tô Kí, Quận 12, TP.HCM, Việt Nam</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <span>0916475837</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>giangntps31300@fpt.edu.vn</span>
+                    </li>
+                </ul>
+                <div class="payment">
+                    <img src="img/payment.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/script/main.js"></script>
+</body>
+
+</html>
